@@ -4,6 +4,7 @@ public class Application {
 
            for (int i = 0; i < 10; i++) {
                Thread thread = new Thread(new Talkative(i));
+               thread.setName("Thread"+i);
                thread.start();
 
            }
