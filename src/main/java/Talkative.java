@@ -1,5 +1,5 @@
 public class Talkative implements Runnable {
-    public static int number;
+    private int number;
     public Talkative(int number){
         this.number=number;
     }
